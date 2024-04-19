@@ -31,7 +31,7 @@ const formatTitle = computed(() => {
 })
 </script>
 <style scoped>
-.m-nav-links[data-v-4d3bce90] {
+.m-nav-links {
   --m-nav-gap: 10px;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
@@ -42,32 +42,32 @@ const formatTitle = computed(() => {
   margin-top: var(--m-nav-gap);
 }
 @media (min-width: 500px) {
-.m-nav-links[data-v-4d3bce90] {
+.m-nav-links {
     grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
 }
 }
 @media (min-width: 640px) {
-.m-nav-links[data-v-4d3bce90] {
+.m-nav-links {
     grid-template-columns: repeat(auto-fill, minmax(155px, 1fr));
 }
 }
 @media (min-width: 768px) {
-.m-nav-links[data-v-4d3bce90] {
+.m-nav-links {
     grid-template-columns: repeat(auto-fill, minmax(175px, 1fr));
 }
 }
 @media (min-width: 960px) {
-.m-nav-links[data-v-4d3bce90] {
+.m-nav-links {
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
 }
 }
 @media (min-width: 1440px) {
-.m-nav-links[data-v-4d3bce90] {
+.m-nav-links {
     grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
 }
 }
 @media (min-width: 960px) {
-.m-nav-links[data-v-4d3bce90] {
+.m-nav-links {
     --m-nav-gap: 20px;
 }
 }
