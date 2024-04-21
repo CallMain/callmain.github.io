@@ -6,7 +6,7 @@ prev: false
 next: false
 ---
 
-# 导航
+# 我的导航
 
 <style src="./nav/nav.css"></style>
 <script setup>
