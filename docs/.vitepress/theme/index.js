@@ -2,7 +2,8 @@ import DefaultTheme from 'vitepress/theme'
 import { useData } from 'vitepress'
 import { h } from 'vue'
 
-import NavLinks from './components/NavLinks.vue'
+// import NavLinks from './components/NavLinks.vue'
+import Welcome from './components/welcome.vue'
 
 export default {
     extends: DefaultTheme,
@@ -18,6 +19,7 @@ export default {
         return h(DefaultTheme.Layout, props)
     },
     enhanceApp({ app }) {
-        app.component('NavLinks', NavLinks)
+        // app.component('NavLinks', NavLinks)
+        app.component('Welcome', Welcome)
     }
 }
